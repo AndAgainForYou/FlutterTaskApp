@@ -15,7 +15,7 @@ class TasksScreen extends StatefulWidget {
 }
 
 class _TasksScreenState extends State<TasksScreen> {
-  late String lastTaskId;
+  late String lastTaskId = '';
   late TasksDataBloc _tasksDataBloc;
   List<bool> _taskCheckboxValues = [];
   late Timer _timer;
